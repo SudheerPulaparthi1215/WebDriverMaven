@@ -25,6 +25,10 @@ public class Logintest {
 		driver.findElement(By.id("identifierId")).sendKeys("sudheer.pulaparthiit@gmail.com");
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/span/span")).click();
 		//driver.findElement(By.name("password")).sendKeys("chandu12155");
+		/*
+		 * 
+		 * Added comments
+		 */
 	}
 	@AfterTest
 	public void teardown() {
